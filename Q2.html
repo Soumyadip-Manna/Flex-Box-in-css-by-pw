@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>community Details</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #cad5e2;
+        }
+        .description{
+            text-align: center;
+            margin: 10px;
+        }
+        .description >h2{
+            color: #5a4bda;
+            margin-bottom: 10px;
+        }
+        .description >p{
+            color:grey;
+            font-size: 12px;
+            margin: 0;
+        }
+        .card-container{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 200px;
+
+        }
+        .card{
+            background-color: #fff;
+            max-width: 350px;  
+        padding: 15px;
+        
+        border: 0;
+        border-radius: 10px;
+        }
+        .card-container .card >img{
+            width: 100%;
+        }
+        .card > .title{
+            font-weight: bold;
+        font-size: 18px;
+        color: #5a4bda;
+        background-color: #fff;
+        padding: 10px;
+        padding-left: 0;
+        }
+        .card > .educator{
+            font-size: 14px;
+            font-weight: lighter;
+            background-color: #fff;
+            padding: 10px;
+        padding-left: 0;
+        }
+        .card > .price{
+            font-weight: bolder;
+            background-color: #fff;
+            padding: 10px;
+        padding-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="description">
+            <h2>Community Programs</h2>
+            <p>Open to all pro-live clases on youtube for free</p>
+        </div>
+        <div class="card-container">
+            <!-- Educator with details one -->
+            <div class="card">
+                <img src="./Assests/hitesh-sir.jpg" alt="Hitesh-sir-image">
+                <p class="title">Masterclass Understanding APIs in Web Development with RoadMap</p>
+                <p class="educator">Hitesh Choudhary</p>
+                <p class="price">FREE</p>
+            </div>
+            <!-- Educator with details two -->
+            <div class="card">
+                <img src="./Assests/vishaw-sir.jpg" alt="vishaw-sir-image">
+                <p class="title">Masterclass Understanding APIs in Web Development with RoadMap</p>
+                <p class="educator">Vishwa Mohan</p>
+                <p class="price">FREE</p>
+            </div>
+            <!-- Educator with details three -->
+            <div class="card">
+                <img src="./Assests/priya-ma'am.jpg" alt="priya-ma'am-image">
+                <p class="title">Masterclass Understanding APIs in Web Development with RoadMap</p>
+                <p class="educator">Priya Bhatia</p>
+                <p class="price">FREE</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

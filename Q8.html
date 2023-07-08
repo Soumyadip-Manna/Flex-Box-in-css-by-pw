@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #242b2e;
+        }
+        .avatar{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+        }
+        img{
+            width: 200px;
+            border-radius: 50%;
+            border: 10px solid #fff;
+            position: relative;
+            margin-left: -50px;
+        }
+        .avatar-1{
+            z-index: 10;
+        }
+       .avatar-2{
+            z-index: 9;
+        }
+        .avatar-3{
+            z-index: 8;
+        }
+        .avatar-4{
+            z-index: 7;
+        }
+    </style>
+</head>
+<body>
+    <section class="avatar">
+        <img src="./Assests/avatar-1.avif" alt="avatar 1" class="avatar-1">
+        <img src="./Assests/avatar 2.jpg" alt="avatar 2" class="avatar-2">
+        <img src="./Assests/Avatar3.jpg" alt="avatar 3" class="avatar-3">
+        <img src="./Assests/avatar4.avif" alt="avatar 4" class="avatar-4">
+    </section>
+</body>
+</html>

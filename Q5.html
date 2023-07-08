@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equal box</title>
+    <style>
+        *{
+        
+           margin: 0;
+           padding: 0;  
+                 
+        }
+        body{
+            background-color: #2a2b2e;
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            max-width: 1200px;
+            width: 100%;
+           
+          
+        }
+        h2{
+            text-align: center;
+            color: #ff6666;
+            margin-bottom: 20px;
+            margin-top:0px ;
+        }
+        .Multi-column{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .column{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 5px solid black;
+            border-radius: 5px;
+        }
+        .column >.heading{
+             font-size: 30px;
+             font-weight: 300;
+             
+        }
+        .column >img{
+            width: 30%;
+            border-radius: 50%;
+
+        }
+        .column > .content{
+             padding: 10px 20px;
+        }
+        .column1{
+            background-color: #35bdd0;
+            color: #111010;
+        }
+        .column2{
+            background-color: #e03beb;
+            color: #111010;
+        }
+        .column3{
+            background-color: #5a20cb;
+            color: #111010;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Full Stack Web Development</h2>
+        <section class="Multi-column">
+          <div class="column column1">
+            <p class="heading">Html</p>
+            <img src="./Assests/svg.png" alt="Html-image">
+            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus cupiditate facilis voluptatibus amet nemo accusamus, debitis ut dolorum nulla libero, ducimus suscipit ullam itaque maiores hic temporibus ratione quae animi iure quidem repellendus consequatur! Ut earum ducimus eius labore velit animi sed esse laborum perferendis officia at quas, in nesciunt qui quos optio quis quaerat ab, facere dicta quidem ipsum, reprehenderit tempore sequi! Asperiores minus odit maiores at beatae, reiciendis voluptas provident quisquam unde illo quibusdam odio magni accusamus obcaecati libero inventore soluta veniam molestias! Optio sunt reprehenderit tempora officia, incidunt eius illo, maiores animi magnam asperiores expedita quia ad.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam saepe quam aliquam eius?
+            </p>
+         </div>
+         <div class="column column2">
+            <p class="heading">Css</p>
+            <img src="./Assests/css.png" alt="css-image">
+            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus cupiditate facilis voluptatibus amet nemo accusamus, debitis ut dolorum nulla libero, ducimus suscipit ullam itaque maiores hic temporibus ratione quae animi iure quidem repellendus consequatur! Ut earum ducimus eius labore velit animi sed esse laborum perferendis officia at quas, in nesciunt qui quos optio quis quaerat ab, facere dicta quidem ipsum, reprehender accusamus obcaecati libero inventore soluta veniam molestias! Optio sunt reprehenderit tempora officia, incidunt eius illo, maiores animi magnam asperiores expedita quia ad.</p>
+         </div>
+         <div class="column column3">
+            <p class="heading">Js</p>
+            <img src="./Assests/js.png" alt="js-image">
+            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus cupiditate facilis voluptatibus amet nemo accusamus, debitis ut dolorum nulla libero, ducimus suscipit ullam itaque maiores hic temporibus ratione quae animi iure quidem repellendus consequatur! Ut earum ducimus eius labore velit animi sed esse laborum perferendis officia at quas, in nesciunt qui quos optio quis quaerat ab, facere dicta quidem ipsum, reprehenderit tempore sequi! Asperiores minus odit maiores at beatae, reiciendis voluptas provident quisquam unde illo quibusdam odio magni accusamus obcaecati libero inventore soluta veniam molestias! Optio sunt reprehenderit tempora officia, incidunt eius illo, maiores animi magnam asperiores expedita quia ad.</p>
+         </div>
+        </section>
+        </div>
+    </div>
+</body>
+</html>
